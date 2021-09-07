@@ -5,10 +5,12 @@
 ### Contact information: ###
 
 **Phone**: +375 29 307 53 38
+
 **E-mail**: pavelshapialevich@gmail.com
+
 **Telegram**: PShap
 
-### Skills ###
+### Skills: ###
 
 * HTML
 * CSS
@@ -16,7 +18,7 @@
 * Git
 * C#
 
-### Code Example ###
+### Code Example: ###
 
 ```javascript
 //Simple, given a string of words, return the length of the shortest word(s).
@@ -25,6 +27,6 @@ function findShort(s){
 }
 ```
 
-### English ###
+### English: ###
 
 B2
