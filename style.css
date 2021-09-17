@@ -6,6 +6,10 @@
     padding-top: 1rem;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
 /* header */
 
 .header {
@@ -61,3 +65,41 @@
     border-color: black;
 }
 
+/* intro */
+
+.intro__inner{
+    display: flex;
+    padding: 100px 0;
+    border-bottom: 1px solid gray;
+}
+
+.intro__content{
+    width: 50%;
+    margin-top: 100px;
+}
+
+.intro__subtitle{
+    color: black;
+    font-weight: 200;
+    font-size: 2.13rem;
+}
+
+.intro__title{
+    margin-bottom: 5px;
+    color: black;
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.intro__text{
+    color: black;
+    font-size: 1.2rem;
+}
+
+.intro__photo{
+    width: 50%;
+}
+
+.intro__photo img {
+    border-radius: 20%;
+}
