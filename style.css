@@ -103,3 +103,31 @@ h1, h2, h3, h4, h5, h6 {
 .intro__photo img {
     border-radius: 20%;
 }
+
+/* about me */
+
+.about__inner{
+    padding: 100px 0;
+    border-bottom: 1px solid gray;
+}
+
+.about__title{
+    font-size: 3rem;
+    color: black;
+    font-weight: 700;
+}
+
+.about__bigtitle{
+    font-size: 6rem;
+    color:lightgrey;
+    font-weight: 700;
+    line-height: 1.1;
+    margin-bottom: 1.4rem;
+}
+
+.about__text{
+    color: black;
+    font-size: 1.2rem;
+    line-height: 2;
+}
+
