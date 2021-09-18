@@ -1,0 +1,191 @@
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+}
+
+/* header */
+
+.header {
+    padding: 1.2rem 0;
+}
+
+.header__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user{
+    display: flex;
+}
+
+.user__logo a img{
+    border-radius: 50%;
+}
+
+.user__content{
+    padding-left: 9px;
+}
+
+.user__name {
+    font-size: 16px;
+    color: black;
+    font-weight: 700;
+    line-height: 1.2rem;
+}
+
+.user__prof{
+    font-size: 0.8rem;
+    height: 100%;
+}
+
+.nav{
+    display: flex;
+
+}
+.nav__link{
+    font-size: 0.93rem;
+    color: black;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 30px;
+    border: 2px solid transparent;
+    border-radius: 20px;
+}
+
+.nav__link:hover{
+    border-color: black;
+}
+
+/* intro */
+
+.intro__inner{
+    display: flex;
+    padding: 100px 0;
+    border-bottom: 1px solid gray;
+}
+
+.intro__content{
+    width: 50%;
+    margin-top: 100px;
+}
+
+.intro__subtitle{
+    color: black;
+    font-weight: 200;
+    font-size: 2.13rem;
+}
+
+.intro__title{
+    margin-bottom: 5px;
+    color: black;
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.intro__text{
+    color: black;
+    font-size: 1.2rem;
+}
+
+.intro__photo{
+    width: 50%;
+}
+
+.intro__photo img {
+    border-radius: 20%;
+}
+
+/* about me */
+
+.about__inner{
+    padding: 100px 0;
+    border-bottom: 1px solid gray;
+}
+
+.about__title{
+    font-size: 3rem;
+    color: black;
+    font-weight: 700;
+}
+
+.about__bigtitle{
+    font-size: 6rem;
+    color:lightgrey;
+    font-weight: 700;
+    line-height: 1.1;
+    margin-bottom: 1.4rem;
+}
+
+.about__text{
+    color: black;
+    font-size: 1.2rem;
+    line-height: 2;
+}
+
+/* skills */
+
+.skills__inner{
+    display: flex;
+    padding: 100px 0;
+    justify-content: space-between;
+}
+
+.skills__content{
+    width: 50%;
+}
+
+.skills__title{
+    font-size: 3rem;
+    color: black;
+    font-weight: 700;
+}
+
+.skills__list{
+    line-height: 2;
+}
+
+.skills__list li{
+    font-size: 1.5rem;
+}
+
+.code__example{
+    width: 50%;
+}
+
+code p{
+    color: black;
+    font-size: 1rem;
+    line-height: 2;
+}
+
+/* footer */
+
+.footer{
+    padding: 1.2rem 0;
+}
+
+.footer__inner{
+    display: flex;
+    justify-content: space-between;
+}
+.footer__content__right{
+    display: flex;
+}
+
+.footer__inf p{
+    margin: 0;
+    padding-right: 20px;
+}
+
+.footer__inf__title{
+    font-weight: 700;
+}

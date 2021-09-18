@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>CV</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <div class="user">
+                    <!--Logo-->
+                    <div class="user__logo">
+                        <a href="#">
+                            <img src="img/logo.jpg" alt="logo" width="57" height="57">
+                        </a>
+                    </div>
+                    <div class="user__content">
+                        <div class="user__name">Pavel<br>Shapialevich<br></div>
+                        <div class="user__prof">Junior Front-End developer</div>
+                    </div>
+                </div>
+                <nav class="nav">
+                    <a href="#" class="nav__link">About me</a>
+                    <a href="#" class="nav__link">Skills</a>
+                    <a href="#" class="nav__link">Contacts</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+        <section class="intro">
+            <div class="container">
+                <div class="intro__inner">
+                    <div class="intro__content">
+                        <h2 class="intro__subtitle">Hi, I'm</h2>
+                        <h1 class="intro__title">Pavel Shapialevich</h1>
+                        <div class="intro__text">Junior Front-End developer</div>
+                    </div>
+                    <!--Photo-->
+                    <div class="intro__photo">
+                        <img src="img/photo.jpg" alt="photo" width="490" height="443"></img>
+                    </div>
+                </div>
+        </section>
+
+        <section class="about__me">
+            <div class="container">
+                <div class="about__inner">
+                    <div class="about__text">
+                        <h3 class="about__title">About me</h3>
+                        <h2 class="about__bigtitle">WHO AM I</h2>
+                        <p>
+                            I am 18 years old, I live in the city Grodno, Belarus. I am a student of Yanka Kupala Grodno
+                            State University.
+                            I am studying at the 2nd year of the Faculty of Physics and Technology, majoring in "
+                            Physicist. Programmer".
+                        </p>
+                        <p>
+                            As for my hobbies, I like to study and learn something new. I like to read books, do
+                            physical education, listen
+                            to music of different genres. I like to work and see the results of my work.
+                            Since childhood, I have had a predisposition to work with electronics and computers. I like
+                            to disassemble, assemble and configure something. I can build, configure, solve problems
+                            with computers.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="skills">
+            <div class="container">
+                <div class="skills__inner">
+                    <div class="skills__content">
+                        <h2 class="skills__title">Skills</h2>
+                        <ul class="skills__list">
+                            <li>
+                                HTML/CSS
+                            </li>
+                            <li>
+                                JS
+                            </li>
+                            <li>
+                                PHP
+                            </li>
+                            <li>
+                                .Net
+                            </li>
+                            <li>
+                                English - B2.
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="code__example">
+                        <h2 class="skills__title">Code example</h2>
+                        <code>
+                            <p>/*Simple, given a string of words, return the length of the shortest word(s).*/<br>
+                            function findShort(s){<br>
+                            return s.split(' ').sort((a,b) => a.length-b.length)[0].length;<br>
+                            }</p>
+                        </code>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__content__left">
+                    <a class="footer__link footer__link--rsschool" href="https://rs.school/js/" target="_blank"><img
+                            src="img/rs_school_js.png" alt="Rsshool Icon" width="100" height="37"></a>
+                </div>
+                <div class="footer__content__right">
+                    <div class="footer__inf">
+                        <p class="footer__inf__title">Contacts</p>
+                        <p>E-mail: pavelshapialevich@gmail.com</p>
+                        <p>Phone: +375 29 307-53-38</p>
+                    </div>
+                    <div class="footer__icons">
+                        <a class="footer__link footer__link--vk" href="https://vk.com/id431853572" target="_blank"><img src="img/Vk.png" alt="Vk Icon" width="50"
+                                height="50"></a>
+
+                        <a class="footer__link footer__link--github" href="https://github.com/PavelShep" target="_blank"><img src="img/Github.png" alt="Github Icon" width="55"
+                                height="54"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
