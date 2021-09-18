@@ -131,3 +131,38 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 2;
 }
 
+/* skills */
+
+.skills__inner{
+    display: flex;
+    padding: 100px 0;
+    justify-content: space-between;
+}
+
+.skills__content{
+    width: 50%;
+}
+
+.skills__title{
+    font-size: 3rem;
+    color: black;
+    font-weight: 700;
+}
+
+.skills__list{
+    line-height: 2;
+}
+
+.skills__list li{
+    font-size: 1.5rem;
+}
+
+.code__example{
+    width: 50%;
+}
+
+code p{
+    color: black;
+    font-size: 1rem;
+    line-height: 2;
+}
