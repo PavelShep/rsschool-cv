@@ -151,6 +151,7 @@ h1, h2, h3, h4, h5, h6{
     font-size: 3rem;
     color: black;
     font-weight: 700;
+    padding-bottom: 30px;
 }
 
 .skills__list{
@@ -165,7 +166,7 @@ h1, h2, h3, h4, h5, h6{
     width: 50%;
 }
 
-code p{
+code{
     color: black;
     font-size: 1rem;
     line-height: 2;
