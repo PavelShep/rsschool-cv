@@ -6,7 +6,7 @@
     padding-top: 1rem;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6{
     margin: 0;
 }
 
@@ -165,4 +165,27 @@ code p{
     color: black;
     font-size: 1rem;
     line-height: 2;
+}
+
+/* footer */
+
+.footer{
+    padding: 1.2rem 0;
+}
+
+.footer__inner{
+    display: flex;
+    justify-content: space-between;
+}
+.footer__content__right{
+    display: flex;
+}
+
+.footer__inf p{
+    margin: 0;
+    padding-right: 20px;
+}
+
+.footer__inf__title{
+    font-weight: 700;
 }
