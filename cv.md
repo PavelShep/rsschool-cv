@@ -6,7 +6,7 @@ As an aspiring web developer, I am fueled by a strong passion for creating inter
 
 ## Skills
 
-- HTML5, CSS3, JavaScript, Ruby, PHP, Python, C#(.NET)
+- HTML5, CSS3, JavaScript, Ruby, Rails, PHP, Python, C#(.NET)
 - Frameworks: Ruby on Rails
 - Version Control: Git
 - Responsive Web Design
